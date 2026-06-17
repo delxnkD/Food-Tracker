@@ -1,6 +1,6 @@
 FOOD EXPIRY TRACKER
 
---Overview--
+Overview
 
   Food Expiry Tracker is a simple Flask web application that helps users keep track of expiry dates of the food items. Users can upload a receipt image, and the app extracts item names using OCR (Tesseract). Each item is given an estimated expiry date based on a small internal database.
   The app includes:
@@ -11,7 +11,7 @@ FOOD EXPIRY TRACKER
   - Edit & delete options
   - Alerts for items expiring soon
 
---Features--
+Features
 
   - Upload receipt images (JPG/PNG)
   - OCR text extraction using Tesseract
@@ -22,7 +22,7 @@ FOOD EXPIRY TRACKER
   - Edit and delete functionality
   - Expiring‑soon warning banner
 
---Working--
+Working
 
   1. User uploads a receipt image
   2. Tesseract OCR extracts text
@@ -33,7 +33,7 @@ FOOD EXPIRY TRACKER
   5. Items are saved to a MySQL database
   6. Dashboard displays items sorted by expiry date
 
---Technologies Used--
+Technologies Used
 
   - Python (Flask)
   - MySQL
@@ -42,7 +42,7 @@ FOOD EXPIRY TRACKER
   - Werkzeug for password hashing
   - Pillow for image processing
 
---Requirements--
+Requirements
 
   This project uses the following Python packages:
   - Flask
@@ -51,7 +51,7 @@ FOOD EXPIRY TRACKER
   - Pillow
   - Werkzeug
 
---Database--
+Database
 
   The project uses a MySQL database named foodtracker.
   Tables used:
@@ -59,7 +59,7 @@ FOOD EXPIRY TRACKER
       food_items
   The schema was created manually in MySQL Workbench.
 
---Running the App--
+Running the App
 
   1. Install the dependencies
   2. Make sure MySQL is running
@@ -67,7 +67,7 @@ FOOD EXPIRY TRACKER
   4. Run the app: python app.py
   5. Open the app in the browser
 
---Notes--
+Notes
 
   - The database connection password is removed in the code
   - The accuracy of the OCR is dependant on the quality of the image
